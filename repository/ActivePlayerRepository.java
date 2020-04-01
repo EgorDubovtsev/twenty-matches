@@ -10,12 +10,13 @@ public class ActivePlayerRepository {
     public Gamer getActivePlayer() {
         return activePlayer;
     }
-    public Gamer getPassivePlayer(){
+
+    public Gamer getPassivePlayer() {
         return passivePlayer;
     }
 
     public void setActivePlayer(Gamer gamer) {
-        this.passivePlayer= this.activePlayer;
+        this.passivePlayer = this.activePlayer;
         this.activePlayer = gamer;
     }
 

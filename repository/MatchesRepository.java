@@ -1,7 +1,7 @@
 package repository;
 
-public class MatchesRepository  {
-    int matchesLeft =20;
+public class MatchesRepository {
+    int matchesLeft = 20;
 
     public int getMatchesLeft() {
         return matchesLeft;

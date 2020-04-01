@@ -7,5 +7,4 @@ public class Computer extends Gamer {
     public String toString() {
         return "Computer";
     }
-
 }

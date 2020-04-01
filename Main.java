@@ -6,4 +6,5 @@ public class Main {
         GameService gameService = new GameService();
         gameService.startGame();
     }
+
 }
